@@ -3,15 +3,19 @@
     padding: 0;
     box-sizing: border-box;
  } 
+ html, body{
+    height: 100%;
+    /* border: 2px solid red; */
+ }
     body{
-        background-color: #efefef;
+        background-color: #19423195;
 
     }
 
-    header{
+    header, footer{
         width: 100%;
-        height: 80px;
-        background-color: #727272;
+        height: 10%;
+        background-color: #387551bf;
     }
     
     nav{
@@ -36,9 +40,61 @@
         
     }
     h1{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 17px;
-        font-weight: 300px;
+        font-family: Verdana, sans-serif;
+        font-size: 26px;
+        font-weight: 100;
         color: white; 
         /* border: 3px solid white;*/
     }
+    .ux {
+        font-size: 30px;
+        margin-left: 3px;
+        font-style: italic;
+        font-weight: 600;
+        font-family: monospace;
+    }
+    nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 80px;
+        color: #e8e8e8;
+        text-decoration: none;
+        font-family: Verdana, sans-serif;
+    }
+    nav a:hover {
+        color: rgba(140, 152, 17, 0.89);
+        text-decoration: underline;
+        font-style: oblique;
+        background-color: #387551bf;
+    }
+    main{
+        width: 100%;
+        height: 80%;
+        /* border: 3px solid rebeccapurple; */
+    }
+    .main-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .Harmonia {
+        /* border: 2px solid orange; */
+        width: 700px;
+        height: 100%;
+        background-color: rgba(127, 255, 212, 0.274);
+    }
+    aside {
+        /* border: 2px solid orchid; */
+        width: 250px;
+        height: 100%;
+        background-color: rgba(0, 255, 255, 0.227);
+    }
+    /* footer{ */
+        /* background-color: rgba(36, 62, 2, 0.847); */
+    
+        
